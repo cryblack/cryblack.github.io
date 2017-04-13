@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+#a1{
+	max-width: 1200px;
+	min-width: 800px;
+	margin: auto;
+}
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+header,section,footer{
+	border: 1px solid #000;
+	margin: 1% 0;
+	height: 120px;
+}
+section{
+	height: auto;
+}
+h1{
+	font-size: 20px;
+}
+aside,main{
+	border: 1px solid #000;
+	min-height: 500px;
+}
+aside{
+	width: 79%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+main{
+	
+	width: 20%%;
+	float: left;
+}
+section{
+	border: 0px;
+}
